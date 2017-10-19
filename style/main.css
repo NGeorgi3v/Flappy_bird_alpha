@@ -1,0 +1,32 @@
+/*Stamdart Normalization*/
+
+html, body, header, nav, ul, li, a, h1, h2, h3, h4, h5, h6, aside, main,section, article, p, footer{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+canvas{
+	position: fixed;
+	top: 25px;
+	left: 25px;
+    //border: 3px solid #000;
+    z-index: 1000000000000;	
+}
+
+#new_game_button{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
